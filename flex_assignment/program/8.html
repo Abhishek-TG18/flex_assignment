@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .container{
+            display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        
+
+
+        }
+        .inside > img{
+
+            width:200px;
+            height:200px;
+            border:3px solid #fff;
+            border-radius: 50%;
+            position: relative;
+        margin-left: -50px;
+        }
+        .image-1 {
+        z-index: 10;
+      }
+
+      .image-2 {
+        z-index: 9;
+      }
+
+      .image-3 {
+        z-index: 8;
+      }
+
+      .image-4 {
+        z-index: 7;
+      }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="inside image-1">
+            <img src="image1.jpg" alt="1">
+        </div>
+        <div class="inside image-2">
+            <img src="img22.jpeg" alt="2">
+        </div>
+        <div class="inside image-3">
+            <img src="img.jpeg" alt="3">
+        </div>
+        <div class="inside" image-4>
+            <img src="img33.jpeg" alt="4">
+        </div>
+    </div>
+    
+</body>
+</html>
